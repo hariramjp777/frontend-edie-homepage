@@ -694,3 +694,20 @@ a.more:hover::before {
     height: 55rem;
   }
 }
+
+.join {
+  position: fixed;
+  top: 2%;
+  right: -15%;
+  font-weight: var(--fw-bt);
+  font-size: var(--fs-md-2);
+  color: var(--clr-white);
+  padding: 1.1rem 2.7rem;
+  background-color: var(--clr-crimson);
+  border-radius: 1.2rem;
+  transition: 0.4s;
+}
+
+.join.come {
+  right: 5%;
+}

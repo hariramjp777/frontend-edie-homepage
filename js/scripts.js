@@ -13,3 +13,16 @@ links.querySelectorAll("li").forEach((link) => {
     nav.textContent = text === "≡" ? "x" : "≡";
   });
 });
+
+document.querySelectorAll("form").forEach((form) => {
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const email = form.querySelector("[name=email]");
+    if (email.value.trim() && email.validity.valid) {
+      document.querySelector(".join").classList.add("come");
+      setTimeout(() => {
+        document.querySelector(".join").classList.remove("come");
+      }, 1000);
+    }
+  });
+});
