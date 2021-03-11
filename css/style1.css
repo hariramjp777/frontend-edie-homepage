@@ -706,8 +706,10 @@ a.more:hover::before {
   background-color: var(--clr-crimson);
   border-radius: 1.2rem;
   transition: 0.4s;
+  opacity: 0;
 }
 
 .join.come {
   right: 5%;
+  opacity: 1;
 }
