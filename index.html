@@ -31,17 +31,18 @@
     <header>
       <h1 class="logo">Edie</h1>
       <nav>
+        <button id="nav">≡</button>
         <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Our Works</a></li>
-          <li><a href="#">Clients</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#works">Our Works</a></li>
+          <li><a href="#clients">Clients</a></li>
+          <li><a href="#contact">Contacts</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <div class="hero">
+      <div class="hero" id="home">
         <div class="hero-title">
           <p class="tag blue">Unhappy with your website?</p>
           <h2 class="title">We create beautiful and fast web services</h2>
@@ -72,7 +73,7 @@
           </form>
         </div>
       </div>
-      <div class="container service-container">
+      <div class="container service-container" id="service">
         <h2>We offer high demand services</h2>
         <div class="services">
           <section class="service">
@@ -110,7 +111,7 @@
           </section>
         </div>
       </div>
-      <div class="container design-container">
+      <div class="container design-container" id="works">
         <h2>Good design means good business</h2>
         <div class="designs">
           <section class="design">
@@ -144,7 +145,7 @@
         </div>
         <a href="#" class="more">see more &rarr;</a>
       </div>
-      <div class="container team-container">
+      <div class="container team-container" id="clients">
         <div class="about">
           <p class="tag crimson">Meet the team</p>
           <h2>We are chilled and a laidback team</h2>
@@ -178,15 +179,15 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer id="contact">
       <div class="container footer-container">
         <nav>
           <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Our Works</a></li>
-            <li><a href="#">Clients</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#works">Our Works</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#contact">Contacts</a></li>
           </ul>
         </nav>
         <section class="social">
@@ -219,5 +220,6 @@
         </form>
       </div>
     </footer>
+    <script src="./js/scripts.js"></script>
   </body>
 </html>
