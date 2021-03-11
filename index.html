@@ -25,11 +25,11 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/style1.css" />
   </head>
   <body>
     <header>
-      <h1>Edie</h1>
+      <h1 class="logo">Edie</h1>
       <nav>
         <ul class="nav-links">
           <li><a href="#">Home</a></li>
@@ -43,14 +43,14 @@
     <main>
       <div class="hero">
         <div class="hero-title">
-          <p class="colored-tag">Unhappy with your website?</p>
-          <h2>We create beautiful and fast web services</h2>
+          <p class="tag blue">Unhappy with your website?</p>
+          <h2 class="title">We create beautiful and fast web services</h2>
         </div>
         <div class="hero-bg">
           <img src="./assets/images/heroImage.jpg" alt="" />
         </div>
         <div class="hero-action">
-          <h2>Story, emotion and purpose</h2>
+          <h2 class="title">Story, emotion and purpose</h2>
           <p>
             We help transform your ideas into real world applications that will
             outperform your toughest competition and help you achieve your
@@ -58,7 +58,7 @@
           </p>
           <form action="#">
             <div class="input-group">
-              <label for="email" class="tag">Want us to contact you?</label>
+              <label for="email" class="tag-sm">Want us to contact you?</label>
               <input
                 type="email"
                 placeholder="Email"
@@ -72,45 +72,45 @@
           </form>
         </div>
       </div>
-      <div class="service-container">
+      <div class="container service-container">
         <h2>We offer high demand services</h2>
         <div class="services">
           <section class="service">
-            <h3>UI/UX Design</h3>
+            <h3 class="bold">UI/UX Design</h3>
             <div class="icon">
               <i class="material-icons">create</i>
             </div>
-            <p>
+            <p class="p-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
               metus ac nulla consequat aliquet id quis turpis.
             </p>
-            <button type="button">Get started</button>
+            <button type="button" class="btn-outline">Get started</button>
           </section>
           <section class="service active">
-            <h3>Front End</h3>
+            <h3 class="bold">Front End</h3>
             <div class="icon">
               <i class="material-icons">code</i>
             </div>
-            <p>
+            <p class="p-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
               metus ac nulla consequat aliquet id quis turpis.
             </p>
-            <button type="button">Get started</button>
+            <button type="button" class="btn-outline">Get started</button>
           </section>
           <section class="service">
-            <h3>Back End</h3>
+            <h3 class="bold">Back End</h3>
             <div class="icon">
               <i class="material-icons">storage</i>
             </div>
-            <p>
+            <p class="p-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
               metus ac nulla consequat aliquet id quis turpis.
             </p>
-            <button type="button">Get started</button>
+            <button type="button" class="btn-outline">Get started</button>
           </section>
         </div>
       </div>
-      <div class="design-container">
+      <div class="container design-container">
         <h2>Good design means good business</h2>
         <div class="designs">
           <section class="design">
@@ -118,37 +118,39 @@
             <div class="img-container">
               <img src="./assets/images/smarthome.jpg" alt="" />
             </div>
-            <p class="tag">Full stack application</p>
+            <p class="tag-sm">Full stack application</p>
           </section>
           <section class="design">
             <h3>Onboard application</h3>
             <div class="img-container">
               <img src="./assets/images/onboard.png" alt="" />
             </div>
-            <p class="tag">UX/UI design</p>
+            <p class="tag-sm">UX/UI design</p>
           </section>
           <section class="design">
             <h3>Booking system</h3>
             <div class="img-container">
               <img src="./assets/images/booking.png" alt="" />
             </div>
-            <p class="tag">Mobile application</p>
+            <p class="tag-sm">Mobile application</p>
           </section>
           <section class="design">
             <h3>Juice product homepage</h3>
             <div class="img-container">
               <img src="./assets/images/juice-product.png" alt="" />
             </div>
-            <p class="tag">Front End application</p>
+            <p class="tag-sm">Front End application</p>
           </section>
         </div>
         <a href="#" class="more">see more &rarr;</a>
       </div>
-      <div class="team-container">
+      <div class="container team-container">
         <div class="about">
-          <p class="colored-tag">Meet the team</p>
+          <p class="tag crimson">Meet the team</p>
           <h2>We are chilled and a laidback team</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="p-sm">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
         </div>
         <div class="teams">
           <div class="person">
@@ -162,9 +164,9 @@
           </div>
         </div>
       </div>
-      <div class="review-container">
+      <div class="container review-container">
         <div class="review">
-          <p class="review-text">
+          <p class="p-lg">
             “Fast and outstanding resutls. Edie understands their customer’s
             needs. They have a young and talented team.”
           </p>
@@ -177,7 +179,7 @@
       </div>
     </main>
     <footer>
-      <div class="footer-container">
+      <div class="container footer-container">
         <nav>
           <ul class="nav-links">
             <li><a href="#">Home</a></li>
@@ -188,7 +190,7 @@
           </ul>
         </nav>
         <section class="social">
-          <h2 class="h1">Edie</h2>
+          <h2 class="logo white">Edie</h2>
           <div class="social-links">
             <a href="#">
               <img src="./assets/images/instagram.svg" alt="instagram" />
@@ -203,13 +205,14 @@
         </section>
         <form action="#">
           <div class="input-group">
-            <label for="email2">Want us to contact you?</label>
+            <label for="email2" class="tag-sm">Want us to contact you?</label>
             <input
               type="email"
               autocomplete="off"
               spellcheck="false"
               name="email"
               id="email2"
+              placeholder="Email"
             />
           </div>
           <button type="submit">Join</button>
