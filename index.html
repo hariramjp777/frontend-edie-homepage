@@ -46,7 +46,9 @@
           <p class="colored-tag">Unhappy with your website?</p>
           <h2>We create beautiful and fast web services</h2>
         </div>
-        <div class="hero-bg"></div>
+        <div class="hero-bg">
+          <img src="./assets/images/heroImage.jpg" alt="" />
+        </div>
         <div class="hero-action">
           <h2>Story, emotion and purpose</h2>
           <p>
@@ -56,9 +58,10 @@
           </p>
           <form action="#">
             <div class="input-group">
-              <label for="email">Want us to contact you?</label>
+              <label for="email" class="tag">Want us to contact you?</label>
               <input
                 type="email"
+                placeholder="Email"
                 autocomplete="off"
                 spellcheck="false"
                 name="email"
@@ -69,7 +72,7 @@
           </form>
         </div>
       </div>
-      <div class="container">
+      <div class="service-container">
         <h2>We offer high demand services</h2>
         <div class="services">
           <section class="service">
@@ -83,7 +86,7 @@
             </p>
             <button type="button">Get started</button>
           </section>
-          <section class="service">
+          <section class="service active">
             <h3>Front End</h3>
             <div class="icon">
               <i class="material-icons">code</i>
@@ -107,7 +110,7 @@
           </section>
         </div>
       </div>
-      <div class="container">
+      <div class="design-container">
         <h2>Good design means good business</h2>
         <div class="designs">
           <section class="design">
@@ -141,7 +144,7 @@
         </div>
         <a href="#" class="more">see more &rarr;</a>
       </div>
-      <div class="container">
+      <div class="team-container">
         <div class="about">
           <p class="colored-tag">Meet the team</p>
           <h2>We are chilled and a laidback team</h2>
@@ -159,9 +162,9 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="review-container">
         <div class="review">
-          <p>
+          <p class="review-text">
             “Fast and outstanding resutls. Edie understands their customer’s
             needs. They have a young and talented team.”
           </p>
@@ -174,42 +177,44 @@
       </div>
     </main>
     <footer>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Our Works</a></li>
-          <li><a href="#">Clients</a></li>
-          <li><a href="#">Contacts</a></li>
-        </ul>
-      </nav>
-      <section class="social">
-        <h2 class="h1">Edie</h2>
-        <div class="social-links">
-          <a href="#">
-            <img src="./assets/images/instagram.svg" alt="instagram" />
-          </a>
-          <a href="#">
-            <img src="./assets/images/linkedin.svg" alt="linkedin" />
-          </a>
-          <a href="#">
-            <img src="./assets/images/twitter.svg" alt="twitter" />
-          </a>
-        </div>
-      </section>
-      <form action="#">
-        <div class="input-group">
-          <label for="email2">Want us to contact you?</label>
-          <input
-            type="email"
-            autocomplete="off"
-            spellcheck="false"
-            name="email"
-            id="email2"
-          />
-        </div>
-        <button type="submit">Join</button>
-      </form>
+      <div class="footer-container">
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Our Works</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <section class="social">
+          <h2 class="h1">Edie</h2>
+          <div class="social-links">
+            <a href="#">
+              <img src="./assets/images/instagram.svg" alt="instagram" />
+            </a>
+            <a href="#">
+              <img src="./assets/images/linkedin.svg" alt="linkedin" />
+            </a>
+            <a href="#">
+              <img src="./assets/images/twitter.svg" alt="twitter" />
+            </a>
+          </div>
+        </section>
+        <form action="#">
+          <div class="input-group">
+            <label for="email2">Want us to contact you?</label>
+            <input
+              type="email"
+              autocomplete="off"
+              spellcheck="false"
+              name="email"
+              id="email2"
+            />
+          </div>
+          <button type="submit">Join</button>
+        </form>
+      </div>
     </footer>
   </body>
 </html>
